@@ -1,0 +1,468 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+/* Global */
+.container {
+	width: 80%;
+	margin:auto;
+}
+
+header {
+	min-height:10vh;
+	font-size:0.9rem;
+	background-color:#ACBCAF;
+	padding-top: 2rem;
+}
+
+header nav a {
+	text-decoration: none;
+	color:white;
+	font-size:1rem;
+	text-transform: uppercase;
+	letter-spacing:0.1rem;
+	transition: .5s all ease-out;
+}
+
+header nav a:hover {
+ color:#19703e;
+ background-color:#ffffff;
+ border-radius: 0.3rem;
+}
+
+header nav ul {
+	margin: 0;
+	padding:0;
+}
+
+header nav li {
+	padding: 0 20px 0 20px;
+	float:left;
+	display:inline;
+}
+
+#sharing {
+	float:right;
+	height:100%;
+	margin-right:1rem;
+}
+
+#sharing img {
+  max-height: 2rem;
+	padding: 0 5px 0 5px;
+	display: inline;
+}
+
+header nav {
+	float:left;
+}
+
+main {
+	background-image:url("../img/sv_cover.jpg");
+	display: flex;
+	min-height:90vh;
+	background-size: cover;
+	background-repeat:no-repeat;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.banner_text {
+	font-family:impact;
+	padding-top: 6rem;
+	font-size: 5.5rem;
+	color:#cc0000;
+	-webkit-text-stroke-width:0.2rem;
+	-webkit-text-stroke-color:#d3d3d3;
+}
+
+.banner_caption {
+	font-family:courier;
+	font-size:1.5rem;
+	color:#ffffff;
+	letter-spacing:0.1rem;
+	font-weight: 250;
+}
+
+.about {
+	background-color:#ACBCAF;
+	min-height: 100vh;
+}
+
+.about img {
+	padding-top:1.5rem;
+	margin: auto;
+	display: block;
+}
+
+#overview {
+	width:100%;
+	overflow:auto;
+}
+
+#overview h1 {
+	font-size:3rem;
+	text-align:center;
+	font-family: impact;
+	color:#ffffff;
+}
+
+#overview p {
+	font-size:1.2rem;
+	line-height:2rem;
+	color: #ffffff;
+	font-family: courier;
+}
+
+.media {
+	width:100%;
+	overflow:auto;
+	padding-top:1rem;
+	padding-bottom:0.8rem;
+	display:flex;
+	flex-direction: row;
+}
+
+.media h1 {
+	font-family:impact;
+	font-size:3rem;
+	margin:0px auto;
+	text-align:center;
+	color:#9aa99d;
+	padding-top:0.8rem;
+	margin-bottom:2rem;
+}
+
+.media p {
+	padding:0.8rem;
+	color:#888888;
+	font-size:1.2rem;
+	line-height: 2rem;
+	font-family:courier;
+}
+
+.single_box {
+	width:30%;
+	display:block;
+	margin: auto;
+	text-align: center;
+	margin-bottom:2rem;
+}
+
+.single_box img, .mult_box img {
+	width:80%;
+	height:auto;
+}
+
+#mult_box_container {
+    width:90%;
+    margin:auto;
+}
+
+.mult_box {
+	width:33%;
+	text-align: center;
+	margin-bottom:2rem;
+	float:left;
+}
+
+.contact_overview {
+	width:100%;
+	min-height:90vh;
+	background-image:url("../img/form_background.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	overflow:auto;
+}
+
+.contact_overview h1 {
+	font-family:impact;
+	font-size:3rem;
+	text-align:center;
+	color:#e6e8bf;
+	padding-top:0.8rem;
+	margin-bottom:2rem;
+}
+
+.contact_overview p {
+	font-size:1.2rem;
+	padding:0.8rem;
+	color: #666666;
+	font-family:arial;
+	text-align:center;
+}
+
+.form {
+	width:100%;
+	margin: 0px auto;
+	overflow:auto;
+}
+
+
+.item {
+	display:block;
+	width:50%;
+	height:1.5rem;
+	margin: 0px auto;
+	padding: 0.6rem 0 0.6rem;
+	text-align:center;
+}
+
+.comment {
+	display:block;
+	width:50%;
+	margin:0px auto;
+	padding: 0.6rem 0 0.6rem;
+	text-align:center;
+}
+
+.submit_button {
+	display:block;
+	background-color:#d76713;
+	width:10%;
+	margin:0px auto;
+	padding: 0.6rem 0 0.6rem;
+	height:2.8rem;
+	font-size:1.5rem;
+	font-family: "jean";
+	color:#e6e8bf;
+	-moz-border-radius: 0.5rem;
+	border-radius: 0.5rem;
+	margin-bottom:1.5rem;
+	-webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.submit_button:hover {
+	background-color:#FFA500;
+	height: 4rem;
+	width:15%
+}
+
+input {
+	border-radius:0.2rem;
+	width:16rem;
+	height:2rem;
+}
+
+textarea {
+	border-radius:0.5rem;
+	height:8rem;
+}
+
+#footer {
+	overflow:auto;
+	width:100%;
+	min-height: 10vh;
+	background-color:#ACBCAF;
+}
+
+#footer_caption {
+	font-family:jean;
+	margin: 0px auto;
+	text-align:center;
+	color:#666666;
+}
+
+@media(max-width:840px) {
+
+	.mult_box {
+		width:30%;
+	}
+
+	.submit_button {
+		width:20%;
+	}
+
+	.submit_button:hover {
+		width:25%;
+	}
+
+}
+
+@media(max-width:768px) {
+
+	.single_box, .mult_box {
+		width:50%;
+	}
+
+	.single_box img, .mult_box img {
+		width:70%;
+	}
+
+	.banner_text {
+		font-size: 4.5rem;
+	}
+
+	.banner_caption {
+		font-size:1.1rem;
+		font-weight: 200;
+	}
+
+	#overview p {
+		font-size:1rem;
+	}
+
+	.media p {
+		font-size:1rem;
+	}
+
+	#footer_caption {
+		font-size: 0.9rem;
+	}
+
+}
+
+@media(max-width:614px) {
+
+	.banner_text {
+		font-size: 3.5rem;
+		-webkit-text-stroke-width:0.1rem;
+	}
+
+	.single_box, .mult_box {
+		width:100%;
+		display:block;
+		margin: auto;
+		text-align: center;
+		margin-bottom:2rem;
+	}
+
+	.mult_box {
+		float:none;
+	}
+
+	.single_box img, .mult_box img {
+		width:50%;
+	}
+
+	header nav li, header nav, #sharing {
+		float:none;
+	}
+
+	header nav li, header nav {
+		text-align: center;
+	}
+
+	#sharing {
+	    margin-top:1rem;
+		width:30%;
+		margin: 0px auto;
+	}
+
+	#sharing img {
+		margin-top:0.8rem;
+	}
+
+	#overview h1 {
+		font-size: 2.5rem;
+	}
+
+	#overview p, .contact_overview p {
+		font-size:0.9rem;
+		text-align: center;
+	}
+
+    .comment {
+	    width:60%;
+    }
+
+	.submit_button {
+		width:25%;
+	}
+
+	.submit_button:hover {
+		width:30%;
+	}
+
+	#footer_caption {
+		font-size: 0.75rem;
+	}
+
+}
+
+@media(max-width:450px) {
+
+	header nav a {
+		font-size:0.7rem;
+	}
+
+	#sharing {
+		display:none;
+	}
+
+	.banner_text {
+		font-size: 2.8rem;
+	}
+
+	.banner_caption {
+		font-size:1rem;
+		font-weight: 200;
+	}
+
+	#overview h1, .media h1, .contact_overview h1 {
+		font-size:1.95rem;
+	}
+
+	#overview p {
+		font-size:0.8rem;
+	}
+
+	.item, .comment {
+	    width:90%;
+		margin: 0;
+		padding: 0.7rem 0 0.7rem 0;
+	}
+
+	.submit_button {
+		width:30%;
+	}
+
+	.submit_button:hover {
+		width:35%;
+	}
+
+}
+
+@media(max-width:360px) {
+
+    .item, .comment {
+	   width:60%;
+	}
+
+
+    input {
+	width:17rem;
+    }
+
+    textarea {
+	width:17rem;
+    }
+
+	header nav a {
+		font-size:0.6rem;
+	}
+
+	.banner_caption {
+		font-size:0.8rem;
+		font-weight: 150;
+	}
+
+}
+
+@media(max-width:330px) {
+
+	header nav a {
+		font-size:0.5rem;
+	}
+
+	    input {
+	width:15rem;
+    }
+
+    textarea {
+	width:15rem;
+    }
+}

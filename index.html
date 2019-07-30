@@ -1,0 +1,163 @@
+<!-- Website designed by ETI Designs -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Silicon Valley Fan Site</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"/>
+		<meta name="description" content="A fan site of HBO's Hit TV Show, Silicon Valley"/>
+		<meta name="keywords" content="Silicon Valley Fan Site, Silicon Valley, HBO Silicon Valley"/>
+		<link type="text/css" rel="stylesheet" href="css/sv_stylesheet.css"/>
+		<link type="image/x-icon" rel="icon" href="img/favicon.ico"/>
+		<link type="text/css" rel="stylesheet" href="css/fonts.css"/>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/scroll.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="container">
+				<nav>
+					<UL>
+						<LI><a href="#home">Home</a>
+						<LI><a href="#about">About</a>
+						<LI><a href="#cast">Cast</a>
+						<LI><a href="#contact">Contact</a>
+					</UL>
+				</nav>
+
+				<div id="sharing">
+					<a href="https://www.facebook.com/SiliconHBO"><img src="img/facebook-icon.png" alt="facebook icon"></a>
+					<a href="https://twitter.com/SiliconHBO"><img src="img/twitter-icon.png" alt="twitter icon"></a>
+					<a href="https://www.instagram.com/siliconhbo"><img src="img/instagram-icon.png" alt="instagram icon"></a>
+				</div>
+			</div>
+		</header>
+
+		<a id="home">
+		<main class="background">
+			<div class="container">
+					<h1 class="banner_text">Silicon Valley</h1>
+					<h3 class="banner_caption">In the high-tech gold rush of modern Silicon Valley, <br>the people most qualified to succeed are the least <br>capable of handling success.</h3>
+		</main>
+
+	<a id="about">
+	<section class="about">
+		<div class="container">
+			<img src="img/logo.png" alt="Silicon Valley Logo">
+				<div id="overview">
+					<h1>About Silicon Valley</h1>
+					<p>Silicon Valley is an American comedy television series that follows the misadventures of introverted computer programmer Richard and his brainy friends as they attempt to strike it rich in a high-tech gold rush. They live together in a Bay Area startup incubator loosely run by self-satisfied dot-com millionaire Erlich, who lets them stay in his house rent-free in exchange for a stake in the projects they invent there. But when Richard develops a powerful search algorithm at his day job, he finds himself caught in the middle of a bidding war between his boss -- whose firm offers Richard an eight-figure buyout -- and a deep-pocketed venture capitalist.</p>
+				</div>
+		</div>
+		</section>
+
+	<a id="cast">
+		<section class="media">
+			<div class="container">
+				<h1>Who We Are</h1>
+
+				<div class="single_box">
+					<img src="img/jack.png" alt="Jack Barker">
+					<p>JACK BARKER <br> CEO</p>
+				</div>
+
+					<div class="single_box">
+						<img src="img/richard.png" alt="Richard Hendrix">
+						<p>RICHARD HENDRICKS <br> CTO</p>
+					</div>
+
+					<div id="mult_box_container">
+
+					<div class="mult_box">
+						<img src="img/dinesh.png" alt="Dinesh">
+						<p>DINESH CHUGTAI <br> Senior Programmer</p>
+					</div>
+					<div class="mult_box">
+						<img src="img/gilfoyle.png" alt="Gilfoyle">
+						<p>BERTRAM GILFOYLE <br> Senior Systems Architect</p>
+					</div>
+
+					<div class="mult_box">
+						<img src="img/jared.png" alt="Jared Dunn">
+						<p>JARED (OJ) DUNN <br> Head of Business Development</p>
+					</div>
+
+					<div class="mult_box">
+						<img src="img/erlich.png" alt="Erlich Bachmann">
+						<p>ERLICH BACHMAN <br> Incubator Owner & Board Member</p>
+					</div>
+
+					</div>
+
+					<div id="mult_box_container">
+					<div class="mult_box">
+						<img src="img/keith.png" alt="Keith">
+						<p>KEITH QUINN <br> Director, Northeast Regional Sales</p>
+					</div>
+
+					<div class="mult_box">
+						<img src="img/doug.png" alt="Doug">
+						<p>DOUG PEREIRA <br> Junior Sales Associate (Shadowing Keith)</p>
+					</div>
+
+					<div class="mult_box">
+						<img src="img/jan.png" alt="Jan">
+						<p>JANICE SPOONER <br> Director, Insider Sales</p>
+					</div>
+
+					<div class="mult_box">
+						<img src="img/don.png" alt="Don">
+						<p>DON SILVERI <br> Director, Global Accounts and Systems Integration</p>
+				</div>
+				</div>
+			</div>
+		</section>
+
+		<a id="contact">
+			<section class="contact_overview">
+				<div class="container">
+					<h1>Let&#8217;s Get in Touch!</h1>
+
+					<p>So now that you've got a synopsis of Silicon Valley, how do you feel about it? Tell us all about it.</p>
+
+					<div class="form">
+						<form method="post" action="php/form_handle.php" name="sv_form" enctype="multipart/form-data">
+							<div class="item">
+								<input type="text" name="name" id="name_box" placeholder="Name *" required/>
+							</div>
+							<div class="item">
+								<input type="text" name="email" id="email" placeholder="Email *" required/>
+							</div>
+							<div class="item">
+								<input type="text" name="website" id="Website"
+							placeholder="Website"/>
+							</div>
+							<div class="item">
+								<select name="rating" id="rating" required>
+						        <option value="" disabled selected hidden>Rate Silicon Valley *</option>
+										<option value="1">Poor</option>
+										<option value="2">Average</option>
+										<option value="3">Good</option>
+										<option value="4">Very Good</option>
+										<option value="5">Excellent</option>
+								</select>
+						</div>
+						<div class="comment">
+							<textarea cols="40" rows="5" name="opinion" id="opinion" placeholder="Send us a short note on how you feel about Silicon Valley"></textarea>
+						</div>
+						<div class="submit">
+							<input name="submit" type="submit" class="submit_button" value="SEND"/>
+						</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		<footer id="footer">
+			<div id="footer_caption">
+				<p>ETI DESIGNS | &copy;2016 HOME BOX OFFICE, INC. ALL RIGHTS RESERVED. HBO&copy; AND RELATED CHANNELS AND SERVICE MARKS ARE THE PROPERTY OF HOME BOX OFFICE, INC.</p>
+			</div>
+		</footer>
+ 	</body>
+</html>
