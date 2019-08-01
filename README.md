@@ -21,7 +21,11 @@ OR
 For the email to work:
 1. Download and install XAMPP.
 2. Move Repo File to htdocs folder of XAMPP.
-3. Open index.html and send email!
+3. Run XAMPP servers
+4. Go to localhost/***Silicon-Valley-Fan-Site-master***
+
+**Instructions on the setup and use of XAMPP will vary depending on your version.*
+****Adjust url according to the file name if it is changed.***
 
 Alternatively, use the production website at http://www.svfansite.com
 
@@ -44,4 +48,3 @@ Ran on a hosting service at HostGator.
 
 * All content used on the website regarding Silicon Valley TV is owned by HBO and it’s rightful owners
 * This includes images, names used, icons, etc
-
